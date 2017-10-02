@@ -1,0 +1,179 @@
+@charset 'utf-8';
+
+/* reset
+ * ------------------------------------------------ */
+body,div,pre,p,a,img,form,fieldset,input,textarea,select,option,
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,table,th,td,embed,object,
+figure,figcaption,nav,header,button,html,article {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+html { height: 100%; font-size: 62.5%; }
+body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+  line-height: 1.6;
+  color: #555555;
+}
+ul,ol { list-style: none; }
+img { width: auto; height: auto; max-width: 100%; border: none; vertical-align: top; }
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none; }
+::-webkit-input-placeholder { color: #ccc; }
+
+/* width
+ * ------------------------------------------------ */
+
+.width-px10 { width: 10px; }
+.width-px20 { width: 20px; }
+.width-px30 { width: 30px; }
+.width-px40 { width: 40px; }
+
+.width-per10 { width: 10%; }
+.width-per50 { width: 50%; }
+.width-per100 { width: 100%; }
+
+/* spaces
+ * ------------------------------------------------ */
+.mt5 { margin-top: 5px; }
+.mt10 { margin-top: 10px; }
+.mt15 { margin-top: 15px; }
+.mt20 { margin-top: 20px; }
+.mt25 { margin-top: 25px; }
+.mt30 { margin-top: 30px; }
+.mt35 { margin-top: 35px; }
+.mt40 { margin-top: 40px; }
+.mt45 { margin-top: 45px; }
+.mt50 { margin-top: 50px; }
+.mb5 { margin-bottom: 5px; }
+.mb10 { margin-bottom: 10px; }
+.mb15 { margin-bottom: 15px; }
+.mb20 { margin-bottom: 20px; }
+.mb25 { margin-bottom: 25px; }
+.mb30 { margin-bottom: 30px; }
+.mb35 { margin-bottom: 35px; }
+.mb40 { margin-bottom: 40px; }
+.mb45 { margin-bottom: 45px; }
+.mb50 { margin-bottom: 50px; }
+
+/* font-size
+ * ------------------------------------------------ */
+.fs11 { font-size: 11px; }
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs18 { font-size: 18px; }
+.fs28 { font-size: 28px; }
+
+/* clearfix
+ * ------------------------------------------------ */
+.clearfix {
+  clear: both;
+}
+.clearfix:before,.clearfix:after {
+  content: ' ';
+  display: table;
+}
+.clearfix:after { clear: both; }
+
+
+/* title
+ * ------------------------------------------------ */
+
+.main-title {
+  font-size: ;
+  font-weight: bold;
+}
+
+/* normal-text
+ * ------------------------------------------------ */
+.text {
+
+}
+
+/* text-align
+ * ------------------------------------------------ */
+
+.pull-left {
+  text-align: left;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.pull-center {
+  text-align: center;
+}
+
+/* container
+ * ------------------------------------------------ */
+#container {
+  position: relative;
+  margin:0 auto;
+}
+
+.wrap {
+  width:960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* header
+ * ------------------------------------------------ */
+
+/* nav
+ * ------------------------------------------------ */
+
+/* sidebar
+ * ------------------------------------------------ */
+
+/* footer
+ * ------------------------------------------------ */
+
+/* form
+ * ------------------------------------------------ */
+
+/* input */
+
+input.text-field {
+
+}
+
+input.number-field {
+
+}
+
+/* select */
+
+select.select-box {
+
+}
+
+/* button */
+
+.btn {
+  padding: 10px 15px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display:inline-block;
+  text-align: center;
+  line-height: inherit;
+}
+
+.btn-red {
+
+}
+
+/* table
+ * ------------------------------------------------ */
+
+/* tab
+ * ------------------------------------------------ */
